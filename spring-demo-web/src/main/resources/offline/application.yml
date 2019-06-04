@@ -1,0 +1,6 @@
+
+server:
+  port: 8920
+spring:
+  application:
+    name: spring-demo-web
