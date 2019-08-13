@@ -1,4 +1,4 @@
-package com.xiaoju.leilu.spring.demo.common.util;
+package com.leilu.spring.demo.common.util;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
