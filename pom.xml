@@ -16,6 +16,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-demo-web</module>
+        <module>spring-demo-dao</module>
+        <module>spring-demo-common</module>
     </modules>
 
     <properties>
@@ -25,7 +27,11 @@
 
     <dependencyManagement>
         <dependencies>
-
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus</artifactId>
+                <version>1.4.7</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
