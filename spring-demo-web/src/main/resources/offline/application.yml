@@ -4,3 +4,5 @@ server:
 spring:
   application:
     name: spring-demo-web
+  profiles:
+    include: url

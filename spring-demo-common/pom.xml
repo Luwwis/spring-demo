@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>spring-demo</artifactId>
-        <groupId>com.leilu.demo</groupId>
+        <artifactId>base</artifactId>
+        <groupId>com.leilu.demo.spring</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-demo-common</artifactId>
+    <artifactId>common</artifactId>
 
     <dependencies>
         <dependency>
